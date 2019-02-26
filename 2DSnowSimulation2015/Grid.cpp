@@ -1,5 +1,6 @@
 #include "Grid.h"
 
+//网格由向量位置 dims?推测是类似一块网格面积     向量格数   点云对象   
 Grid::Grid(Vector2f pos, Vector2f dims, Vector2f cells, PointCloud* object){
 	obj = object;
 	origin = pos;
